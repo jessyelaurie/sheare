@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sheare</string>
+    <string-array name="songs">
+        <item>Song 1</item>
+        <item>Song 2</item>
+        <item>Song 3</item>
+        <item>Song 4</item>
+        <item>Song 5</item>
+        <item>Song 6</item>
+    </string-array>
+</resources>

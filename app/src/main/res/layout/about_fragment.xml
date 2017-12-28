@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:id="@+id/graph1button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ic_chart"
+            android:backgroundTint="@color/color2"
+            />
+        <ImageButton
+            android:id="@+id/graph2button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ic_chart"
+            android:backgroundTint="@color/color7"
+            />
+        <ImageButton
+            android:id="@+id/graph3button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ic_chart"
+            android:backgroundTint="@color/color3"
+            />
+        <ImageButton
+            android:id="@+id/graph4button"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/ic_chart"
+            android:backgroundTint="@color/color5"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="60dp"
+        android:id="@+id/addcollaborator"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Add a collaborator"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/addtrack"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Add a track"
+        android:textColor="#fff" />
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jessyend.sheare">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UserManagement.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeView.HomeActivity" />
+        <activity android:name=".PlaylistView.PlaylistActivity" />
+        <activity android:name=".PlaylistView.PlaylistCreationActivity" />
+        <activity android:name=".HomeView.NotificationsActivity" />
+        <activity android:name=".UserManagement.LogoutActivity" />
+        <activity
+            android:name=".UserManagement.SpotifyLoginActivity"
+            android:label="Sheare"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                // this needs to match the scheme and host of the redirect URI as defined in My
+                applications page
+                <data
+                    android:host="callback"
+                    android:scheme="sheareprotocol" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserManagement.LoginActivity" />
+        <activity android:name=".SearchView.SearchActivity" />
+        <activity android:name=".UserManagement.SignUpActivity" />
+        <activity android:name=".HomeView.SettingsActivity" />
+        <activity android:name=".UserSearchView.UserSearchActivity" />
+        <activity android:name=".PlaylistView.GraphActivity" />
+        <activity android:name=".PlaylistView.PieActivity"></activity>
+
+        <service android:name=".PlaylistView.PlayerService"/>
+    </application>
+
+</manifest>

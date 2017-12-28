@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "181390742786",
+    "firebase_url": "https://sheare-258dd.firebaseio.com",
+    "project_id": "sheare-258dd",
+    "storage_bucket": "sheare-258dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181390742786:android:df46b4dd90d5d332",
+        "android_client_info": {
+          "package_name": "com.jessyend.sheare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181390742786-i0easj1mcgtgfqlk474afuusv8r6irca.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jessyend.sheare",
+            "certificate_hash": "ad214fceadaa6f0cf36127fb52828e9473a965b3"
+          }
+        },
+        {
+          "client_id": "181390742786-7h3uclhklg90ju797n62s8ki1t341q79.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyTCJ6iFEyJmgiKuumlBy8c-RUx9wnlw8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181390742786-7h3uclhklg90ju797n62s8ki1t341q79.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
